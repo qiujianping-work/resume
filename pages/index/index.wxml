@@ -1,0 +1,117 @@
+<!--index.wxml-->
+<view id="resume">
+  <!-- 个人信息 -->
+  <view id='head'>
+    <text style='font-size:280%;font-weight: bold'>邱建平</text>
+    <text style='font-size:150%;padding:3% 0;border-top:1px solid #00A982;border-bottom:2px solid #00A982;margin:3% 0'>Web前端工程师</text>
+    <view>
+      <view id='head-info'>
+        <text>男/1992.8</text>
+        <text>井冈山大学•计算机科学与技术</text>
+        <text>2014年毕业</text>
+      </view>
+      <view id='head-icon'>
+        <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
+        <text class="iconfont icon-github" bindtap='copyGithub'></text>
+        <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
+        <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
+      </view>
+    </view>
+  </view>
+
+
+  <view id='body'>
+    <!-- 个人项目 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>项目</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>仿微信网页</text>
+        <text class='tag' bindtap='copyDemo'>demo</text>
+        <view class='explain'>
+          <text>使用Vue全家桶</text>
+          <text>vue-cli + vue-route + vuex</text>
+          <text>tailwind + vue-awesome + vant</text>
+        </view>
+      </view>
+
+      <view>
+        <text class='project-name'>小程序简历</text>
+        <text class='tag'>this</text>
+        <view class='explain'>
+          <text>微信开发者工具</text>
+          <text>熟悉微信官方提供的标签和组件</text>
+        </view>
+      </view>
+    </view>
+
+
+    <!-- 个人技能 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>技能</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>Vue</text>
+        <text class='tag'>掌握</text>
+        <view class='explain'>
+          <text>使用Vue全家桶</text>
+          <text>vue-cli + vue-route + vuex</text>
+          <text>Vuepress搭建的Docs</text>
+        </view>
+      </view>
+
+      <view>
+        <text class='project-name'>工具</text>
+        <text class='tag'>熟悉</text>
+        <view class='explain'>
+          <text>git、phpstorm、vscode</text>
+          <text></text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 工作经历 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>经历</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>达实智能</text>
+        <text class='project-subname'>（2017-至今）</text>
+        <text class='tag'>工作</text>
+        <view class='explain'>
+          <text>AFC维护工程师</text>
+          <text style='text-indent:8%;margin-top: 2%;line-height: 150%'>此工作与前端无关，但是它给予了非常多的空闲时间花在前端上面，非常感激！</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 个人介绍 -->
+    <view id='person-introduce'>
+      <view class='subtitle'>
+        <view></view>
+        <text>介绍</text>
+        <view></view>
+      </view>
+      <text class='project-name'>自我介绍</text>
+      <text class='tag'>自学</text>
+      <view class='explain'>
+        <text style='text-indent:8%;line-height: 150%'>接触前端时间不长，从三件套到微信小程序再到 Vue ，一路自学过来。</text>
+        <text style='text-indent:8%;margin-top: 2%;line-height: 150%'>可能有很多概念我还没有听过，但谁又不是从小白过来的。边学边做，边做边学。</text>
+      </view>
+
+    </view>
+
+  </view>
+</view>
