@@ -1,5 +1,7 @@
 module.exports = {
+  //个人介绍配置项
   introduce: "本人从事前端开发工作4年，主要技术栈为jQuery、react全家桶、微信小程序等，有过大型React项目开发经验，熟悉webpack、gulp等前端自动化构建工具。曾主导过项目开发，有带领团队开发产品经验，热爱前端开发，注重团队协作。",
+  //技能配置项
   technologies:[
     "4年HTML、CSS、JavaScript经验，熟悉W3C标准规范",
     "4年JQuery、2年React框架经验, 理解MVC、MVVM模式",
@@ -13,11 +15,13 @@ module.exports = {
     "熟练掌握前端性能优化，有效的对代码进行精简提升前端性能",
     "熟练使用Linux常用命令，对nginx有一定了解"
   ],
+  //技术工具配置项
   tools:[
     "3年xshell、winscp等服务端工具使用经验",
     "熟练使用webpack、gulp前端自动化构建工具及Git版本管理工具",
     "熟练使用VSCode, Sublime等主流IDE进行开发工作"
   ],
+  //工作经历配置项
   experiences: [
     {
       companyName: "深圳云天励飞技术有限公司",
@@ -37,5 +41,24 @@ module.exports = {
       dateRanges: "2014.06-2015.03 ",
       explain: "负责公司网络、服务器等运维工作"
     }
+  ],
+  //项目经验配置项
+  project: [
+    {
+      projectNum: "项目一",
+      projectName: "云天深目系统",
+      projectType: "PC项目",
+      projectDesc: "云天深目是一个大型的人像AI智能应用平台，主要合作方为深圳市龙岗公安分局，产品主要提供人像检索、人像布控、数据分析、高级管理等功能，其中人像检索和人像布控是产品的核心功能。",
+      skillDesc: "此项目前端基于React框架进行开发，从结构上可分为表现层、业务层、数据层。表现层采用了reat-router-dom路由实现页面间的跳转，再配合ant Design的使用，可实现快速创建UI组件，提高页面搭建效率。业务层上则使用redux来对项目进行状态控制，有效解决了项目中多组件状态共享、视图层多数据来源、多用户类型等问题。数据层则采用axios.js进行http请求实现前后端数据通信，对axios.js进行二次封装，统一处理http错误。另外项目使用webpack作为前端自动化构建工具，实现了开发热加载，自动化打包等功能",
+      responsibilityDesc: "1.	作为云天深目系统的主要开发人员，参与系统的版本迭代开发工作2.	牵头项目重构，推动前端组件化，业务模块化3.	参与系统的版本发布，确保系统的成功升级并及时响应运维人员修复系统漏洞",
+    },
+    {
+      projectNum: "项目二",
+      projectName: "个人简历小程序",
+      projectType: "微信小程序项目",
+      projectDesc: "这是一个用来展示个人简历的微信小程序项目。",
+      skillDesc: "采用了微信小程序开发工具进行项目开发，添加了tab",
+      responsibilityDesc: "独立完成小程序开发",
+    },
   ]
 }

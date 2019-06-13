@@ -1,59 +1,15 @@
-#project {
+#project{
+}
+#project-swiper{
+  background-color: #00b38a;
   padding: 5%;
 }
-
-.subtitle {
-  margin: 3% 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.subtitle view {
-  flex: 1;
-  height: 1px;
-  background-color: #eee;
-}
-
-.subtitle text {
-  background-color: #eee;
-  color: #00b38a;
-  margin: 0 1%;
-  padding: 1% 8%;
-  border-radius: 30px;
-}
-
-.project-name {
-  font-size: 90%;
-}
-
 #project-swiper image{
   width: 100%;
   height: 100%;
 }
 
-.project-subname {
-  margin-left: 2px;
-  font-size: 75%;
+#project-content {
+  padding: 5%;
 }
 
-.tag {
-  float: right;
-  font-size: 70%;
-  color: #00b38a;
-  border: 1px solid #00b38a;
-  padding: 0 1%;
-  border-radius: 5px;
-}
-
-.explain {
-  margin: 5% 0;
-  padding-left: 5%;
-  display: flex;
-  flex-direction: column;
-}
-
-.explain text {
-  font-size: 85%;
-  margin: 1px 0;
-}

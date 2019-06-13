@@ -8,30 +8,9 @@
       <swiper-item><image src='../../img/project/rz0.png'></image></swiper-item>
     </swiper>
   </view>
-  <view>
-    <view class='subtitle'>
-      <view></view>
-      <text>项目</text>
-      <view></view>
+  <scroll-view scroll-y="true">
+    <view id="project-content" wx:for="{{project}}">
+      <project-item projectNum="{{item.projectNum}}" projectName="{{item.projectName}}"  projectType="{{item.projectType}}" projectDesc="{{item.projectDesc}}" skillDesc="{{item.skillDesc}}" responsibilityDesc="{{item.responsibilityDesc}}"></project-item>
     </view>
-
-    <view>
-      <text class='project-name'>云天深目系统</text>
-      <text class='tag' bindtap='copyDemo'>PC项目</text>
-      <view class='explain'>
-        <text></text>
-        <text></text>
-        <text></text>
-      </view>
-    </view>
-
-    <view>
-      <text class='project-name'>小程序版简历</text>
-      <text class='tag'>this</text>
-      <view class='explain'>
-        <text>微信开发者工具</text>
-        <text>熟悉微信官方提供的标签和组件</text>
-      </view>
-    </view>
-  </view>
+  </scroll-view>
 </view>
