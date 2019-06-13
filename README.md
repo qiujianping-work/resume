@@ -8,11 +8,15 @@
 
 ![](./img/qrcode.jpg)
 
+### 小程序界面截图
+
+<img src="./img/cut2.jpg" style="width:200px" />
+<img src="./img/cut1.jpg" style="width:200px" />
 ## 学习网址
 
-[腾讯小程序教程](https://developers.weixin.qq.com/miniprogram/dev/index.html)  学习小程序网站，由腾讯官方提供。
+[微信小程序教程](https://developers.weixin.qq.com/miniprogram/dev/index.html)  学习小程序网站，由腾讯官方提供。
 
-[腾讯示例源码](https://github.com/wechat-miniprogram/miniprogram-demo.git)     github上的组件demo，可以优先体验后再学习。
+[微信小程序示例源码](https://github.com/wechat-miniprogram/miniprogram-demo.git)     github上的组件demo，可以优先体验后再学习。
 
 [阿里矢量图库](http://iconfont.cn/)     非常好看的图标库，非常全面。
 
