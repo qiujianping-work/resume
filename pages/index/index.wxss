@@ -51,18 +51,20 @@
 
 .subtitle text {
   background-color: #eee;
+  color: #00b38a;
   margin: 0 1%;
   padding: 1% 8%;
   border-radius: 30px;
 }
-
-.project-name {
+.skill,.tool {
   font-size: 90%;
+  font-weight: 600;
 }
 
-.project-subname {
-  margin-left: 2px;
-  font-size: 75%;
+.detail{
+  font-size: 85%;
+  text-indent:8%;
+  line-height: 150%
 }
 
 .tag {
@@ -74,17 +76,6 @@
   border-radius: 5px;
 }
 
-.explain {
-  margin: 5% 0;
-  padding-left: 5%;
-  display: flex;
-  flex-direction: column;
-}
-
-.explain text {
-  font-size: 85%;
-  margin: 1px 0;
-}
 @font-face {font-family: "iconfont";
   src: url('iconfont.eot?t=1545200281871'); /* IE9*/
   src: url('iconfont.eot?t=1545200281871#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -107,3 +98,8 @@
 .icon-phone:before { content: "\e618"; }
 
 .icon-github:before { content: "\f1b4"; }
+.introduce-content {
+  font-size: 85%;
+  text-indent: 8%;
+  line-height: 150%;
+}
