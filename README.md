@@ -10,8 +10,8 @@
 
 ### 小程序界面截图
 
-<img src="./img/cut2.jpg" style="width:200px" />
-<img src="./img/cut1.jpg" style="width:200px" />
+<img src="./img/cut2.jpg" width=20% />
+<img src="./img/cut1.jpg" width=20% />
 ## 学习网址
 
 [微信小程序教程](https://developers.weixin.qq.com/miniprogram/dev/index.html)  学习小程序网站，由腾讯官方提供。
