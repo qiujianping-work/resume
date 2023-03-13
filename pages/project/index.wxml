@@ -3,7 +3,7 @@
   <!-- 个人项目 -->
   <view id="project-swiper">
     <swiper indicator-dots="true" indicator-active-color="#00b38a" autoplay='true' circular='true'>
-      <swiper-item><image src='../../img/project/jxjg0.png'></image></swiper-item>
+      <swiper-item><image src='../../img/project/jxjt0.png'></image></swiper-item>
       <swiper-item><image src='../../img/project/sm0.png'></image></swiper-item>
       <swiper-item><image src='../../img/project/sp0.png'></image></swiper-item>
     </swiper>
