@@ -3,7 +3,7 @@ const config = require('../../resume.config.js');
 console.log("dfdf---",config);
 Page({
   data: {
-    blog: 'https://www.cnblogs.com/AnotherLife/',
+    blog: 'https://earnest-moxie-a66fc7.netlify.app/',
     phone: '13928412827',
     mail: '13928412827@163.com',
     github: 'https://github.com/qiujianping-work',

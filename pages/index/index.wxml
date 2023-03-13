@@ -21,6 +21,19 @@
 
 
   <view id='body'>
+    <!-- 个人介绍 -->
+    <view id='person-introduce'>
+      <view class='subtitle'>
+        <view></view>
+        <text>自我介绍</text>
+        <view></view>
+      </view>
+      <view class='introduce-content'>
+        <text>{{introduce}}</text>
+      </view>
+
+    </view>
+
     <!-- 个人技能 -->
     <view>
       <view class='subtitle'>
@@ -58,19 +71,6 @@
         <component-work-experience companyName="{{item.companyName}}" position="{{item.position}}" dateRanges="{{item.dateRanges}}" explain="{{item.explain}}">
         </component-work-experience>
       </view>
-    </view>
-
-    <!-- 个人介绍 -->
-    <view id='person-introduce'>
-      <view class='subtitle'>
-        <view></view>
-        <text>自我介绍</text>
-        <view></view>
-      </view>
-      <view class='introduce-content'>
-        <text>{{introduce}}</text>
-      </view>
-
     </view>
 
   </view>
